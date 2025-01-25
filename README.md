@@ -5,14 +5,14 @@ Converts Twitter bookmarks to PDF. Simply log in with Twitter and the script doe
 
 # How to use? Text guide: <br>
 No coding knowledge required! :D  <br>
--Install PyCharm: https://www.jetbrains.com/pycharm/ <br>
--Download the "Main" folder of this Git, and store it in a folder by itself to ensure it doesn't overwrite any data of yours <br>
--Open PyCharm, and load this project <br>
--PyCharm will prompt you to configure the interpreter and install dependancies, this is normal and expected. Allow it to automatically do them <br>
--Run the program <br>
--When Twitter opens the program will pause, log in to Twitter and then press ENTER inside the running terminal of PyCharm <br>
--At this point PyCharm should direct itself to your bookmarks and download tweets whilst scrolling down, and this should be reflected in the running terminal <br>
--When it reaches the bottom of your bookmarks it will try scrolling a few times to ensure it is done, when it registers this, it will generate the PDF file. <br>
+- Install PyCharm: https://www.jetbrains.com/pycharm/ <br>
+- Download the "Main" folder of this Git, and store it in a folder by itself to ensure it doesn't overwrite any data of yours <br>
+- Open PyCharm, and load this project <br>
+- PyCharm will prompt you to configure the interpreter and install dependancies, this is normal and expected. Allow it to automatically do them <br>
+- Run the program <br>
+- When Twitter opens the program will pause, log in to Twitter and then press ENTER inside the running terminal of PyCharm <br>
+- At this point PyCharm should direct itself to your bookmarks and download tweets whilst scrolling down, and this should be reflected in the running terminal <br>
+- When it reaches the bottom of your bookmarks it will try scrolling a few times to ensure it is done, when it registers this, it will generate the PDF file. <br>
  <br>
 
 # How to use? Video guide: <br>
