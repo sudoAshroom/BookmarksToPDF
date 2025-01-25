@@ -30,6 +30,9 @@ For the non-techy users, please keep in mind this code (and GitHub in general) i
 # I ALSO RECOMMEND STORING THIS ON A USB JUST IN CASE YOU RUN OUT OF STORAGE <br>
 <br>
 
+# PLEASE NOTE THIS COULD GET YOUR TWITTER BANNED BECAUSE MUSK IS AGAINST SCRAPING <br>
+<br>
+
 # AI DISCLAIMER
 I want to be very forward with the fact this project did utilise AI quite heavily. Usually I am against any useage, however I deemed it harmless for this project as: <br>
 - There is a demand for this program that doesn't cost an arm and a leg <br>
