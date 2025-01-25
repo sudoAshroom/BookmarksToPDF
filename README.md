@@ -1,5 +1,5 @@
 # BookmarksToPDF <br>
-Converts Twitter bookmarks to PDF. Simply log in with Twitter and the script does the rest. Please note that as of launch videos and GIFs are not supported but it may save the thumbnail.
+Converts Twitter bookmarks to PDF. Simply log in with Twitter and the script does the rest. Please note that as of launch videos and GIFs are not supported but it may save the thumbnail. Profile pictures are low quality
 <br>
 <br>
 
@@ -21,7 +21,8 @@ No coding knowledge required! :D  <br>
 
 # How to use? Video guide: <br>
 Download and watch the Demonstation.mp4 video <br>
- <br>
+By the way, all bookmarks are just the first Tweets on my feed after making the account. I do not endorse the random racist posts that were pushed to my feed. <br>
+<br>
 
 # Are my login details safe?
 As far as I am aware, yes. I do not have any trackers in the code for you login details and you must manually log in to the official Twitter site for this to work. However, I am cautious to give an absolute 100% gaurentee as I cannot gaurentee that one of the libraries I use for this one day become comprimsed - however I would personally trust this, but change my password BEFORE and AFTER usage just to be safe. Changing your password before means if the password is used anywhere else it can't be comprimised, and changing after for the same reason as well as keeping your Twitter safe. <br>
