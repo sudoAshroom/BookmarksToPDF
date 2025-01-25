@@ -28,7 +28,7 @@ As far as I am aware, yes. I do not have any trackers in the code for you login 
  <br>
 For the non-techy users, please keep in mind this code (and GitHub in general) is open source, you are free to copy and paste it into ChatGPT or ask a friend their opinion before running it if you are unsure. <br>
  <br>
-# PLEASE KEEP IN MIND THAT IN THIS CURRENT STATE IT STORES EVERYTHING TO RAM FIRST. YOU SHOULD STILL BE ABLE TO SAVE 10K-20K TWEETS BEFORE RUNNING OUT  <br>
+# PLEASE KEEP IN MIND THAT IN THIS CURRENT STATE IT STORES EVERYTHING TO RAM FIRST. YOU SHOULD STILL BE ABLE TO SAVE 10K-20K TWEETS BEFORE RUNNING OUT WITH ONLY 8GB OF RAM  <br>
 <br>
 
 # I ALSO RECOMMEND STORING THIS ON A USB JUST IN CASE YOU RUN OUT OF STORAGE <br>
