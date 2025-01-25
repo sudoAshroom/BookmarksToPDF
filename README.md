@@ -52,4 +52,6 @@ I want to be very forward with the fact this project did utilise AI quite heavil
 I wish to be as transparent as possible, and I believe ChatGPT has done around 75% of the project with the remainder being me making it actually work (example: it saved all images under the same name so the PDF only had one image dozens of times, or how it would only read the last 4 Tweets) as well as ensuring it's as user friendly as possible without being complex as it was wanting users to install specific browsers and drivers. I take editoral credit at best. <br>
 <br>
 # ~~Bonus~~<br>
-~~Although it wasn't made to do so, you can change it to download profiles instead. Simply change line 26 "page.goto("https://twitter.com/i/bookmarks")" to "page.goto("URL OF PROFILE YOU WANT TO DOWNLOAD")". This has not been tested, and was not the purpose, but should be an easy repurpose if you need it.~~     Officially implemented now :D You could also download from the Twitter homepage, but you would have to turn off your internet connection to get the program to finish and write.
+~~Although it wasn't made to do so, you can change it to download profiles instead. Simply change line 26 "page.goto("https://twitter.com/i/bookmarks")" to "page.goto("URL OF PROFILE YOU WANT TO DOWNLOAD")". This has not been tested, and was not the purpose, but should be an easy repurpose if you need it.~~
+<br>
+Officially implemented now :D You could also download from the Twitter homepage, but you would have to turn off your internet connection to get the program to finish and write.
