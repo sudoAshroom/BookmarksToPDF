@@ -38,6 +38,9 @@ For the non-techy users, please keep in mind this code (and GitHub in general) i
 # PLEASE NOTE THIS COULD GET YOUR TWITTER BANNED BECAUSE MUSK IS AGAINST SCRAPING <br>
 <br>
 
+# Font credit <br>
+DejaVuSans was used to catch invalid unicode, whilst this didn't work it did still stop the program from failing. Source: https://www.fontsquirrel.com/fonts/dejavu-sans <br>
+<br>
 # AI DISCLAIMER
 I want to be very forward with the fact this project did utilise AI quite heavily. Usually I am against any useage, however I deemed it harmless for this project as: <br>
 - There is a demand for this program that doesn't cost an arm and a leg <br>
