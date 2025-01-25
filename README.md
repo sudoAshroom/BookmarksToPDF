@@ -35,4 +35,5 @@ I want to be very forward with the fact this project did utilise AI quite heavil
 - There is a demand for this program that doesn't cost an arm and a leg <br>
 - I still had to alter the garbage it gave me to be useable <br>
 - I have no experience with this sort of usage of Python and thus it would have taken me significantly longer, if at all, to come out. <br>
+
 I wish to be as transparent as possible, and I believe ChatGPT has done around 75% of the project with the remainder being me making it actually work (example: it saved all images under the same name so the PDF only had one image dozens of times, or how it would only read the last 4 Tweets) as well as ensuring it's as user friendly as possible without being complex as it was wanting users to install specific browsers and drivers. I take editoral credit at best. <br>
