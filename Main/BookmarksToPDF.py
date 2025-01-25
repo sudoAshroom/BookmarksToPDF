@@ -23,7 +23,11 @@ def fetch_bookmarks_to_pdf():
         input("Please log in to Twitter on the browser that opened, and then press ENTER in here to continue")  #pauses the program until user input to give them enough time to log in
 
         # Navigate to Twitter Bookmarks
-        page.goto("https://twitter.com/i/bookmarks")
+        target = input("\nSelect destination to download. \nPress 1 for bookmarks, \nor enter a Twitter profile or likes URL (any non-Twitter link will not work)\n\nTarget:  ").strip()
+        if target == 1:
+            page.goto("https://twitter.com/i/bookmarks")
+        else:
+            page.goto(target)
 
         # Initialize a set to store tweet content hashes (to avoid duplicates)
         saved_tweet_hashes = set()
