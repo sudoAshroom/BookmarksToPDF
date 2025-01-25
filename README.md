@@ -25,7 +25,7 @@ By the way, all bookmarks are just the first Tweets on my feed after making the 
 <br>
 
 # Are my login details safe?
-As far as I am aware, yes. I do not have any trackers in the code for you login details and you must manually log in to the official Twitter site for this to work. However, I am cautious to give an absolute 100% gaurentee as I cannot gaurentee that one of the libraries I use for this one day become comprimsed - however I would personally trust this, but change my password BEFORE and AFTER usage just to be safe. Changing your password before means if the password is used anywhere else it can't be comprimised, and changing after for the same reason as well as keeping your Twitter safe. <br>
+As far as I am aware, yes. I do not have any trackers in the code for your login details (or anything else, for that matter) and you must manually log in to the official Twitter site for this to work. However, I am cautious to give an absolute 100% gaurentee as I cannot gaurentee that one of the libraries I use for this will not one day become comprimsed - however I would personally trust this, but change my password BEFORE and AFTER usage just to be safe. Changing your password before means if the password is used anywhere else it can't be comprimised, and changing after for the same reason as well as keeping your Twitter safe. <br>
  <br>
 For the non-techy users, please keep in mind this code (and GitHub in general) is open source, you are free to copy and paste it into ChatGPT or ask a friend their opinion before running it if you are unsure. <br>
  <br>
