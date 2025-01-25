@@ -29,6 +29,8 @@ As far as I am aware, yes. I do not have any trackers in the code for your login
  <br>
 For the non-techy users, please keep in mind this code (and GitHub in general) is open source, you are free to copy and paste it into ChatGPT or ask a friend their opinion before running it if you are unsure. <br>
  <br>
+# Help! I need to abort early
+Because the program scrolls infinitely until it hits the end, simply disconnecting from the internet will cause it to stop once it fails to scroll a few times. It's not ideal but it's the easiest way and less likely to produce errors later on in other ways.<br>
 # PLEASE KEEP IN MIND THAT IN THIS CURRENT STATE IT STORES EVERYTHING TO RAM FIRST. YOU SHOULD STILL BE ABLE TO SAVE 10K-20K TWEETS BEFORE RUNNING OUT WITH ONLY 8GB OF RAM  <br>
 <br>
 
