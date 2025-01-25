@@ -9,10 +9,10 @@ No coding knowledge required! :D  <br>
 - Install Python. Tick both "install as admin" and "create PATH" commands. https://www.python.org/downloads/ <br>
 - Download the "Main" folder of this Git, and store it in a folder by itself to ensure it doesn't overwrite any data of yours <br>
 - Open PyCharm, and load this project <br>
-- PyCharm will prompt you to configure the interpreter and install dependancies, this is normal and expected. Allow it to automatically do them. Please note the blue bar at the bottom of the screen for both.
+- PyCharm will prompt you to configure the interpreter and install dependancies, this is normal and expected. Allow it to automatically do them. Please note the blue bar at the bottom of the screen for both. <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If Python does not ask you to install dependancies, run this code in the terminal: "pip install -r requirements.txt" without the "". This tells Python to install the dependencies I have assigned in in requirements.txt <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - If this fails to find the file you will have to tell it where the requirements is. For example "pip install -r C:\usr\downloads\BookmarksToPDF\Main\requirements.txt" <br>
-- Now run "playwright install" in the terminal without the "". This ensures playwright is fully installed and allows a browser window to open.
+- Now run "playwright install" in the terminal without the "". This ensures playwright is fully installed and allows a browser window to open. <br>
 - Run the program <br>
 - When Twitter opens the program will pause, log in to Twitter and then press ENTER inside the running terminal of PyCharm <br>
 - At this point PyCharm should direct itself to your bookmarks and download tweets whilst scrolling down, and this should be reflected in the running terminal <br>
