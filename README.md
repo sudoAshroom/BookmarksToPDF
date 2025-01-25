@@ -1,6 +1,6 @@
 # BookmarksToPDF <br>
 Converts Twitter bookmarks to PDF. Simply log in with Twitter and the script does the rest. Please note that as of launch videos and GIFs are not supported but it may save the thumbnail. Profile pictures are low quality, that's what happens when you download a 48x48 image, don't be alarmed when you see this <3
-<br>
+Find me on BlueSky: @ashroom.bsky.social <br>
 <br>
 
 # How to use? Text guide: <br>
