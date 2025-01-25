@@ -20,7 +20,7 @@ No coding knowledge required! :D  <br>
  <br>
 
 # How to use? Video guide: <br>
-Download and watch the Demonstation.mp4 video <br>
+Download and watch the Demonstation.mp4 video. You will still need to refer to the text guide, but this is there to hopefully clear up most confusions.<br>
 By the way, all bookmarks are just the first Tweets on my feed after making the account. I do not endorse the random racist posts that were pushed to my feed. <br>
 <br>
 
