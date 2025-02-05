@@ -1,9 +1,9 @@
-from playwright.sync_api import sync_playwright
-from PIL import Image
-import requests
-import os
 from fpdf import FPDF
 import hashlib
+from PIL import Image
+import os
+from playwright.sync_api import sync_playwright
+import requests
 
 def fetch_bookmarks_to_pdf():
     # Create a directory to store images
