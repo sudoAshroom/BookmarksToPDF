@@ -12,7 +12,7 @@ def fetch_bookmarks_to_pdf():
 
     # Initialize PDF
     pdf = FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.set_auto_page_break(auto=True, margin=10)
 
     with sync_playwright() as p:
         # Launch browser (headless mode for simplicity)
@@ -20,7 +20,7 @@ def fetch_bookmarks_to_pdf():
         context = browser.new_context()
         page = context.new_page()
         page.goto("https://twitter.com")
-        input("Please log in to Twitter on the browser that opened, and then press ENTER in here to continue")  #pauses the program until user input to give them enough time to log in
+        input("Please log in to Twitter on the browser that opened, and then press ENTER in here to continue.")  #pauses the program until user input to give them enough time to log in
 
         # Navigate to Twitter Bookmarks
         target = input("\nSelect destination to download. \nPress 1 for bookmarks, \nor enter a Twitter profile or likes URL (any non-Twitter link will not work)\n\nTarget:  ").strip()
@@ -34,17 +34,23 @@ def fetch_bookmarks_to_pdf():
 
         while True:
             previous_height = page.evaluate("document.body.scrollHeight")
-            page.evaluate("window.scrollBy(0, window.innerHeight)")             #these two are used to catch the end
+            page.evaluate("window.scrollBy(0, window.innerHeight)")   # these two are used to catch the end of scrolling
             # Scroll down by a small step
-            page.evaluate("window.scrollBy(0, 500)")  # Finaly number (default 500) changes the amount of
-                                                      # pixels scrolled, increase number to increase speed
+            page.evaluate("window.scrollBy(0, 800)")  # Final number (default 800) changes the amount of
+                                                      # pixels scrolled, increase number to increase speed,
+                                                      # decrease number to ensure no Tweets are missed if
+                                                      # it's an issue for you.
+
+                                                      # TODO: MAKE THE ABOVE TWEAKS AN OPTION FOR THE USER
+            
             page.wait_for_timeout(2000)  # Wait for new content to load in miliseconds, decrease number to increase
                                          # speed. Please note that this is to factor in loading times and lowering it
                                          # too much could lead to premature termination of the program
 
             # Extract tweets after scrolling
             tweets = page.query_selector_all("article")
-            print(f"Found {len(tweets)} tweets.")  # Debugging print statement
+            print(f"Found {len(tweets)} tweets.")  # Debugging print statement, can be inaccurate but is just an
+                                                   # idea if it's trying to do something or not
 
             for i, tweet in enumerate(tweets):
                 # Extract tweet text
@@ -124,10 +130,6 @@ def fetch_bookmarks_to_pdf():
             if scroll_attempts > 3:
                 print("No new content found, stopping scrolling.")
                 break
-
-            # # Scroll by a small step (100px) to load more content
-            # page.evaluate(f"window.scrollBy(0, 1000)")
-            # page.wait_for_timeout(scroll_pause_time)  # Wait for the new content to load
 
         # Close the browser
         browser.close()
