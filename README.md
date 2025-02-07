@@ -52,6 +52,7 @@ I want to be very forward with the fact this project did utilise AI quite heavil
 I wish to be as transparent as possible, and I believe ChatGPT has done around 75% of the project with the remainder being me making it actually work (example: it saved all images under the same name so the PDF only had one image dozens of times, or how it would only read the last 4 Tweets) as well as ensuring it's as user friendly as possible without being complex as it was wanting users to install specific browsers and drivers. I take editoral credit at best. I will strive for all updates to this to be made entirely by me or by humans. I will update this disclaimer as updates go to ensure I remain as transparent as possible. <br> <br>
 Update 1, 25/1/25: Added the ability to download profiles and likes without having to edit the code. No AI used, though this is a simple change. <br>
 Update 2, 6/2/25: Scroll speed changes, comment cleaning. Also small changes, no AI. <br>
+Update 3, 7/2/25: Minor name changes and comment changes, also no AI of course. <br>
 <br>
 # ~~Bonus~~<br>
 ~~Although it wasn't made to do so, you can change it to download profiles instead. Simply change line 26 "page.goto("https://twitter.com/i/bookmarks")" to "page.goto("URL OF PROFILE YOU WANT TO DOWNLOAD")". This has not been tested, and was not the purpose, but should be an easy repurpose if you need it.~~
