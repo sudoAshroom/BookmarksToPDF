@@ -5,7 +5,7 @@ import os
 from playwright.sync_api import sync_playwright
 import requests
 
-def fetch_bookmarks_to_pdf():
+def bookmarks_to_pdf():
     # Create a directory to store images
     if not os.path.exists("bookmarks_images"):
         os.makedirs("bookmarks_images")
@@ -16,7 +16,7 @@ def fetch_bookmarks_to_pdf():
 
     with sync_playwright() as p:
         # Launch browser (headless mode for simplicity)
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=False) # headless=True will not show the browser to user, can be useful if you're tweaking the code
         context = browser.new_context()
         page = context.new_page()
         page.goto("https://twitter.com")
@@ -140,4 +140,4 @@ def fetch_bookmarks_to_pdf():
     # Cleanup images directory if needed
     print("PDF created: Twitter_Bookmarks.pdf")
 
-fetch_bookmarks_to_pdf()
+bookmarks_to_pdf()
